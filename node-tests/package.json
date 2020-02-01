@@ -1,0 +1,22 @@
+{
+    "name": "tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha **/*.test.js",
+        "test-watch": "nodemon --exec \"npm test\""
+    },
+    "author": "Dakshraj Sharma",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "expect": "^24.7.1",
+        "jest": "^24.8.0",
+        "mocha": "^6.1.2",
+        "rewire": "^4.0.1",
+        "supertest": "^4.0.2"
+    }
+}
